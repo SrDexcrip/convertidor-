@@ -1,6 +1,6 @@
 
 #include <iostream>
-#include <cctype>
+//#include <cctype>
 
 using namespace std;
 
@@ -78,6 +78,7 @@ int conmin() {
 	{
 		cout << "No se reconoce la opcion" << endl;
 		cout << "el programa se cerrara" << endl;
+		system("pause");
 		return 0;
 	}
 }
@@ -118,7 +119,7 @@ int conmay() {
 	{
 		cout << "No se reconoce la opcion"<<endl;
 		cout << "el programa se cerrara" << endl;
-
+		system("pause");
 		return 0;
 	}
 }
